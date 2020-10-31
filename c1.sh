@@ -7,7 +7,6 @@ c="\033[35;1m"
 pu="\033[36;1m"
 x="\033[30;1m"
 o="\033[0m"
-clear
 function check(){
 if [ -z $(command -v curl) ];then
 printf "${p}[${m}!${p}]${m}curl belum di install!!\n"
